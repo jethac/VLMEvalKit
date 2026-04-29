@@ -44,6 +44,7 @@ from .GUI.screenspot_v2 import ScreenSpotV2
 from .GUI.vbgd import VBGD
 from .GUI.venusbench import VenusBench_GD
 from .hipho import HiPhODataset
+from .hle import HLEDataset
 from .image_base import ImageBaseDataset, img_root_map
 from .image_caption import ImageCaptionDataset
 from .image_ccocr import CCOCRDataset
@@ -275,7 +276,7 @@ IMAGE_DATASET = [
     HRBenchDataset, CRPE, MathVerse, NaturalBenchDataset, MIABench,
     OlympiadBench, SeePhys, WildVision, MMMath, QSpatial, Dynamath, GSM8KVDataset, MMGenBench, VizWiz,  # noqa: E501
     MMNIAH, CMMMU, VLRewardBench, WeMath, LogicVista, MMMUProDataset,
-    CreationMMBenchDataset, ImageShortQADataset, MMAlignBench, OmniDocBench,
+    CreationMMBenchDataset, HLEDataset, ImageShortQADataset, MMAlignBench, OmniDocBench,
     VLM2Bench, VMCBenchDataset, EMMADataset, MME_CoT, MOAT, MedXpertQA_MM_test,
     LEGO, MMSci_Captioning, Physics_yale, ScreenSpot_Pro, ScreenSpot, VenusBench_GD,
     ScreenSpotV2, OSWorld_G, VBGD, MMIFEval, Spatial457, VisuLogic, CVBench, PathVQA_VAL,
